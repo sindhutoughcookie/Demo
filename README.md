@@ -23,3 +23,19 @@ This is designed as a **teaching/demo artifact** to illustrate core AI system ar
 3. Create or open the notebook file: hotel_demo.ipynb
 4. Run each block
 
+## 🧩 System Design Choices
+
+This demo is intentionally designed to reflect how real-world AI systems are built, while keeping the implementation simple and teachable. Below are the key system design decisions and the reasoning behind them.
+
+
+| Design Choice | Reason |
+|--------------|--------|
+| GPT-4o mini | Balance of quality, cost, latency |
+| Prompting over fine-tuning | Faster iteration, simpler |
+| RAG | Improves accuracy and grounding |
+| Simple retrieval | Keeps demo easy to understand |
+| Guardrails | Ensures safety and control |
+| Domain restriction | Simulates real product behavior |
+| Temperature 0.3 | Deterministic, predictable, consistent |
+
+
