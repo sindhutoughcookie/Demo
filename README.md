@@ -32,10 +32,9 @@ This demo is intentionally designed to reflect how real-world AI systems are bui
 |--------------|--------|
 | GPT-4o mini | Balance of quality, cost, latency |
 | Prompting over fine-tuning | Faster iteration, simpler |
-| RAG | Improves accuracy and grounding |
-| Simple retrieval | Keeps demo easy to understand |
-| Guardrails | Ensures safety and control |
-| Domain restriction | Simulates real product behavior |
+| RAG | In memory for demo simplicity. Replaceable with vector DB (e.g., Azure AI Search) for efficient large-scale retrieval  |
 | Temperature 0.3 | Deterministic, predictable, consistent |
+| Managed Model Scaling (Azure) | Automatically handles scaling, availability, and infrastructure for model inference |
+| Backend scaling | Not relavent for demo
 
 
